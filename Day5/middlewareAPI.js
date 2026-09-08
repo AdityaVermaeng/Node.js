@@ -1,8 +1,7 @@
+//Create a middleware that allows access to the /secure route only if the query parameter apikey =12345 is provided.
+
 const express = require('express');
 const app=express();
-
-
-
 
 
 const apiKeyCheck= (req,res,next) =>{
